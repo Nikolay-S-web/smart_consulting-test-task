@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>smart_consulting-page</title>
+
+</head>
+
+<body>
+    <div class="registration">
+        <h1>Регистрация</h1>
+        <form id="registerForm">
+            <label> <input type="text" id="userName" placeholder="Имя" required> <input type="text" id="userFamily" placeholder="Фамилия" required> <input type="text" id="userPatronym"
+                    placeholder="Отчество" required>
+                ФИО</label>
+            <label> <input type="date" id="userDateOfBirth" placeholder="Дата рождения" required>
+                Дата рождения</label>
+            <label> <input type="text" id="userPhone" placeholder="Телефон" required>
+                Телефон</label>
+            <label> <input type="password" id="password" placeholder="Пароль" autocomplete="true" required>
+                Пароль</label>
+            <label> <input type="text" id="documentIdentitySeries" placeholder="Серия документа" required>
+                Серия документа</label>
+            <label> <input type="text" id="documentIdentityNumber" placeholder="Номер документа" required>
+                Номер документа</label>
+            <label> <input type="date" id="documentIssueDate" placeholder="Дата выдачи документа" required>
+                Дата выдачи документа</label>
+            <label> <input type="text" id="workCompanyName" placeholder="Название компании" required>
+                Название компании</label>
+            <label> <input type="text" id="workPhone" placeholder="Рабочий телефон" required>
+                Рабочий телефон</label>
+            <label> <input type="text" id="workAddress" placeholder="Адрес работы" required>
+                Адрес работы</label>
+            <button type="reset">Сбросить</button>
+            <button type="submit">Зарегистрироваться</button>
+        </form>
+    </div>
+
+    <div class="login">
+        <h1>Авторизация</h1>
+        <form id="loginForm">
+            <label><input type="text" id="loginUserFullName" placeholder="ФИО" required> ФИО</label>
+
+            <label><input type="password" id="loginPassword" placeholder="пароль" autocomplete="true" required> Пароль</label>
+
+            <button type="submit">Войти</button>
+        </form>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
